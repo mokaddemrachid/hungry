@@ -35,10 +35,79 @@
 .card-img-top{
     height: 300px;
 }
+.rest{
+  text-align: center;
+  margin-top: 20px;
+}
 
+.food {
+  display: flex;
+  justify-content: space-around;
+}
+.card-text{
+  color: #000;
+}
+.price{
+  color: #000;
+}
+.btn-plus{
+  font-size: large;
+  color: #383737;
+  border-radius: 35%;
+}
 
+.btn-plus:hover{
+  background-color: #1ea525;
+  color: #ebebeb;
+}
+.btn-minus{
+  font-size: larger;
+  color: #383737;
+  border-radius: 20%;
+}
+.btn-minus:hover{
+  background-color: #ad1400;
+  color: #ebebeb;
+}
 
+.bi-trash-fill:hover{
+  cursor: pointer;
+}
+.bi-star:hover{
+  cursor: pointer;
+}
+.total-price-container{
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+#receipt{
+  width: 250px;
+  background-color: rgb(241, 241, 176);
+  margin-left: 40%;
+  margin-top: 20px;
+  text-align: center;
+}
+.total-price-container {
+  background-color: rgb(241, 241, 176);
+  border-radius: 10px;
+  padding: 20px;
+}
 
+.total-price-container span {
+  font-size: 30px;
+}
+.pay{
+  background-color: rgb(241, 241, 176);
+  color: orangered;
+  font-size: large;
+  border-color: rgb(241, 241, 176);
+  border-radius: 5px;
+}
+.pay:hover{
+  background-color: orangered;
+  color: rgb(241, 241, 176);
+}
 .footer-widget p {
     margin-bottom: 27px;
 }
@@ -78,7 +147,7 @@ p {
 .dk-footer-box-info {
   position: absolute;
   width: 350px;
-  height: 470px;
+  height: 490px;
   top: 5px;
   background: #ff682d;
   padding: 40px;
