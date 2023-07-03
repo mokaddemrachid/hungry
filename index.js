@@ -41,3 +41,10 @@ for (let i=0;i<stars.length; i++){
         else stars[i].style.color ="black";
     })
 }
+// corbeille
+for (let j=0;j<trash.length; j++){
+    trash[j].addEventListener("click",function(){
+        counts[j].innerText =0;
+        total_price();
+    })
+}
